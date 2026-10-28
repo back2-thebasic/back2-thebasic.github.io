@@ -291,6 +291,12 @@
         width: 100%;
         height: auto;
       }
+      .project-image {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 4px;
+      }
       .entry-body {
         flex: 1;
         min-width: 0;
@@ -401,54 +407,25 @@
         </ul>
       </section>
 
-      <!-- PROJECTS: Replace these example ideas with your own project details, images, and links. -->
+      <!-- PROJECTS: Update the description and links as the project progresses. -->
       <section class="content-section" aria-labelledby="projects-heading">
         <h2 id="projects-heading">Projects</h2>
         <article class="entry project-entry">
           <div class="entry-visual">
-            <svg viewBox="0 0 160 108" role="img" aria-label="Illustration of learning robot manipulation from a human demonstration">
-              <rect width="160" height="108" rx="4" fill="#eef3f8" />
-              <path d="M15 82H145" stroke="#a9bbc9" stroke-width="2" />
-              <rect x="70" y="62" width="22" height="20" rx="2" fill="#e0a45a" />
-              <path d="M27 77L39 48L62 35L77 50" fill="none" stroke="#5687ad" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
-              <circle cx="39" cy="48" r="6" fill="#dbe9f3" stroke="#5687ad" stroke-width="2" />
-              <path d="M117 30L108 45L100 52M108 45L117 54M108 45L104 33" fill="none" stroke="#b98066" stroke-width="4" stroke-linecap="round" />
-              <path d="M87 37H99M95 33L99 37L95 41" fill="none" stroke="#a9bbc9" stroke-width="2" />
-            </svg>
+            <img class="project-image" src="assets/img/orca-pen-spinning.png" alt="ORCA Hand reorienting a pen in simulation" loading="lazy" />
           </div>
           <div class="entry-body">
-            <span class="sample-label">Example project idea · To be replaced</span>
-            <h3>Learning Manipulation from Egocentric Demonstrations</h3>
-            <p class="entry-meta">Robot Learning / Egocentric Data</p>
+            <h3>Safe Dexterous Pen Spinning with the ORCA Hand</h3>
+            <p>Peiqi Liu, Linxuan Chen, <strong>Cheng Su</strong>, Jiazhen Niu, Autumn Kwon</p>
+            <p class="entry-meta">CSCI 513 Course Project · Fall 2026 · Ongoing</p>
             <p>
-              Explore how first-person human demonstrations can support robot manipulation learning, from understanding object interactions to
-              transferring skills to a robot.
+              We investigate in-hand pen spinning with the ORCA dexterous hand. Building on human hand-motion retargeting and preliminary
+              pen-reorientation results in simulation, we explore reinforcement learning for coordinated finger control. Our goal is to develop
+              reliable pen-spinning skills while incorporating safety-aware motion constraints.
             </p>
-          </div>
-        </article>
-        <article class="entry project-entry">
-          <div class="entry-visual">
-            <svg viewBox="0 0 160 108" role="img" aria-label="Illustration of a robotic hand grasping an object">
-              <rect width="160" height="108" rx="4" fill="#f5f1eb" />
-              <circle cx="80" cy="42" r="18" fill="#bbcbaf" />
-              <path
-                d="M57 88V62L48 48Q45 43 49 40Q53 37 57 43L66 55V30Q66 24 71 24Q76 24 76 30V48V21Q76 16 81 16Q86 16 86 21V48V28Q86 23 91 23Q96 23 96 28V51V39Q96 34 101 34Q106 34 106 39V69Q106 79 98 88"
-                fill="none"
-                stroke="#8b8072"
-                stroke-width="4"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path d="M57 94H98" stroke="#8b8072" stroke-width="4" />
-            </svg>
-          </div>
-          <div class="entry-body">
-            <span class="sample-label">Example project idea · To be replaced</span>
-            <h3>Dexterous Grasping and Object Manipulation</h3>
-            <p class="entry-meta">Dexterous Manipulation / Simulation</p>
             <p>
-              Investigate learning-based control for grasping and reorienting objects with a multi-fingered robotic hand, with an emphasis on robust
-              interaction.
+              <a href="https://github.com/George121380/ORCA_Hand_Feetech_Version">Code</a> /
+              <a href="https://github.com/George121380/ORCA_Hand_Feetech_Version/blob/main/docs/assets/meeting/pen-success.mp4">Demo</a>
             </p>
           </div>
         </article>
