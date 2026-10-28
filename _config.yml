@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Cheng Su # the website title (if blank, full name will be used instead)
 first_name: Cheng
 middle_name: ""
 last_name: Su
@@ -95,8 +95,8 @@ al_folio:
 # Layout
 # -----------------------------------------------------------------------------
 
-navbar_fixed: true
-footer_fixed: true
+navbar_fixed: false
+footer_fixed: false
 search_enabled: true
 socials_in_search: true
 posts_in_search: true
