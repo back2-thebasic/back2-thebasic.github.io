@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://back2-thebasic.github.io/sitemap.xml
