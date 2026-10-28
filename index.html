@@ -207,6 +207,12 @@
       .about p {
         line-height: 1.65;
       }
+      .about > p:not(.links) {
+        font-size: 15px;
+      }
+      .about > p:not(.links) strong {
+        font-size: inherit;
+      }
       h1.name {
         text-align: center;
         font-weight: normal;
@@ -306,6 +312,17 @@
         line-height: 1.5;
         margin: 0 0 6px;
         font-weight: 700;
+      }
+      .entry h3 a {
+        font-size: inherit;
+      }
+      .experience-top h3 {
+        font-size: 16px;
+        margin-bottom: 0;
+      }
+      .experience-top .experience-role {
+        margin-top: 2px;
+        line-height: 1.4;
       }
       .entry p {
         line-height: 1.65;
@@ -415,12 +432,11 @@
             <img class="project-image" src="assets/img/orca-pen-spinning.png" alt="ORCA Hand reorienting a pen in simulation" loading="lazy" />
           </div>
           <div class="entry-body">
-            <h3>Safe Dexterous Manipulation with ORCA Hand</h3>
+            <h3><a href="https://github.com/back2-thebasic/Orcahand-Safe-Assembly">Safe Dexterous Manipulation with ORCA Hand</a></h3>
             <p>
               Exploring safe dexterous manipulation with the ORCA Hand using human motion retargeting, reinforcement learning, and safety-aware
               control
             </p>
-            <p><a href="https://github.com/back2-thebasic/Orcahand-Safe-Assembly">Code</a></p>
           </div>
         </article>
       </section>
@@ -432,10 +448,12 @@
           <div class="experience-mark" aria-hidden="true">SN</div>
           <div class="entry-body">
             <div class="experience-top">
-              <h3><a href="https://stellarnexrobotics.com/">StellarNex Robotics</a></h3>
+              <div>
+                <h3><a href="https://stellarnexrobotics.com/">StellarNex Robotics</a></h3>
+                <p class="experience-role"><strong>Computer Vision Algorithm Intern</strong></p>
+              </div>
               <span class="entry-meta"><em>Mar. 2026 – May. 2026</em></span>
             </div>
-            <p><strong>Computer Vision Algorithm Intern</strong></p>
             <p>Worked on egocentric visual data processing for robotics, focusing on 4D hand reconstruction from egocentric videos.</p>
           </div>
         </article>
@@ -443,10 +461,12 @@
           <div class="experience-mark" aria-hidden="true">CT</div>
           <div class="entry-body">
             <div class="experience-top">
-              <h3><a href="https://www.chinatelecom-h.com/en/global/home.php">China Telecom</a></h3>
+              <div>
+                <h3><a href="https://www.chinatelecom-h.com/en/global/home.php">China Telecom</a></h3>
+                <p class="experience-role"><strong>AI Agent Intern</strong></p>
+              </div>
               <span class="entry-meta"><em>Jul. 2025 – Sep. 2025</em></span>
             </div>
-            <p><strong>AI Agent Intern</strong></p>
             <p>Worked on the development of LLM-based AI agents, focusing on agent workflows and practical applications of large language models.</p>
           </div>
         </article>
